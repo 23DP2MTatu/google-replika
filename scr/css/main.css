@@ -1,0 +1,148 @@
+@font-face {
+    font-family: GoogleFont;
+    src: url(/scr/font/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    font-family: GoogleFont;
+}
+
+main {
+    padding-top: 10%;
+}
+
+nav {
+    margin-block: auto;
+    gap: 15px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.avatar {
+    height: 50px;
+    border-radius: 100%;
+}
+
+nav img {
+    padding: 5px;
+    height: 25px;
+}
+
+#al-icon {
+    height: 30px;
+    border-radius: 100%;
+}
+
+.avatar:hover {
+    background: rgba(173, 169, 169, 0.582);
+}
+
+#al-icon:hover {
+    background: rgba(173, 169, 169, 0.582);
+}
+
+nav a { 
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    color: gray;
+    font-weight: bold;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    width: 20%;
+}
+
+#search-box {
+    margin-top: 25px;
+    width: 700px;
+    padding-inline: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-inline: auto;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.296);
+    border: 0px solid gray;
+    border-radius: 50px;
+    transition: box-shadow 0.3s;
+}
+
+#search-box:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+#search-box img {
+    height: 20px;
+}   
+
+.input {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 90%;
+    text-decoration: none;
+}
+
+#web-buttons {
+    padding-top: 30px;
+    margin-inline: auto;
+    display: flex;
+    width: 60%;
+    justify-content: center ;
+    align-items: center;
+    flex-flow: row;
+    gap: 2rem;
+}
+
+.web-history {
+    padding-top: 1rem;
+    text-align: center;
+    height: 9rem;
+    width: 10rem;
+
+}
+
+.web-history img {
+    object-fit:cover;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 100%;
+    background-color: lightgrey;
+    height: 50px;
+    border: 10px solid lightgray;
+
+
+}
+
+.web-history:hover {
+    background: rgba(173, 169, 169, 0.256);
+    border-radius: 5%;
+}
+
+
+#custom {
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    bottom: 10px;
+    right: 10px;
+    padding-inline: 30px;
+    background-color: rgba(146, 154, 246, 0.597);
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.296);
+    color: blue;
+}
+
+#custom img {
+    height: 20px;
+}
